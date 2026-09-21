@@ -32,12 +32,34 @@ public class Problema_com_OO {
     }
     //Criação de uma classe estática
     public static class IMC {
-
+    //Parâmetro
     double peso;
     double altura;
-
+    //Método
     public double calcularIMC() {
         return peso / (altura * altura);
     }
 }
 }
+
+/*==========ANOTAÇÕES============
+
+1 - Quando for criado uma classe dentro do mesmo arquivo, como no caso de IMC, deve-se -
+nomeá-la como 'public static', pois a classe pertence a ela mesma, é não a um objeto.
+2 - Para imprimir coloca-se o objeto seguido de um ponto '.' e o nome da classe. Como em -
+ana.calculandoIMC()
+
+new = Cria um objeto a partir de uma classe, resenvando um espaço de memória (HEAP)
+
+IMC ana, carlos;
+
+ana = new IMC();
+carlos = new IMC(); 
+
+   Stack  |
+          |                 |  HEAP             |
+ana ------|---------------> |  altura, peso     |
+carlos ---|---------------> |  altura, peso     |
+          |                 |                   |
+
+*/
