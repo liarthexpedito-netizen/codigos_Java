@@ -29,6 +29,14 @@ public class Logica_de_estoque {
         quantidade -= subtrair;
         //quantidade = quantidade - subtrair 
     }
+
+    @Override
+    public String toString() {
+        return nome + ", R$" + String.format("%.2f", preco) + ", " + quantidade + " unidades, total: R$" + String.format("%.2f", Valor_do_estoque());
+    }
+
+    
+
    
     /*=======ANOTAÇÕES=========
     1 - void não tem return.
