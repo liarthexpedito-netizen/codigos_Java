@@ -16,8 +16,11 @@ public class Poligono_versao_dois {
         Versao_dois esfera = new Versao_dois();
 
         double raio = sc.nextDouble();
-        esfera.circunferencia(raio);
-        esfera.volume(raio);
+        double c = esfera.circunferencia(raio);
+        double v = esfera.volume(raio);
+
+        System.out.println(c);
+        System.out.println(v);
 
 
 
