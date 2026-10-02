@@ -1,0 +1,3 @@
+Como criar um objeto?
+
+Nome da classe nome do objeto = new Nome da classe();
