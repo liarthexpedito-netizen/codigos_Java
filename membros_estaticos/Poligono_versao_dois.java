@@ -19,11 +19,8 @@ public class Poligono_versao_dois {
         double c = esfera.circunferencia(raio);
         double v = esfera.volume(raio);
 
-        System.out.println(c);
-        System.out.println(v);
-
-
-
+        System.out.printf("Circunferência: %.2f", c);
+        System.out.printf("Volume %.2f", v);
 
         sc.close();
     }
