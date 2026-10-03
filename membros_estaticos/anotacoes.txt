@@ -1,6 +1,0 @@
-
-Membros = atributos e métodos
-
-Os membros estáticos, também chamadas de membros de classe, são membros que pertencem a classe em si, e não ao objeto.
-Não precisam de objeto para serem chamados, são chamados a partir do próprio nome da classe. 
-Uma classe que possui somente membros estáticos, pode ser uma classe estática também. Esta classe não poderá ser instanciada.
