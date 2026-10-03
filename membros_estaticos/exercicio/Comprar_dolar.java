@@ -17,5 +17,6 @@ public class Comprar_dolar {
         System.out.printf("%.2f", resultado);
 
         sc.close();
+        
     }
 }
