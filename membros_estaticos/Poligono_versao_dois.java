@@ -15,6 +15,8 @@ public class Poligono_versao_dois {
         System.out.print("Digite o raio de uma esfera: ");
         Versao_dois esfera = new Versao_dois();
 
+        //Nome_do_objeto.metodo();
+
         double raio = sc.nextDouble();
         double c = esfera.circunferencia(raio);
         double v = esfera.volume(raio);

@@ -9,7 +9,9 @@ public class Comprar_dolar {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
+        System.out.print("Qual a contação atual do dolar? ");
         double cotacao_atual = sc.nextDouble();
+        System.out.print("Quantos dolares deseja comprar? ");
         double reais = sc.nextDouble();
         
         double resultado = Conversao.real_para_dolar(cotacao_atual, reais);

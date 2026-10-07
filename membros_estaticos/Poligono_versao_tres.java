@@ -12,6 +12,8 @@ public class Poligono_versao_tres {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
+        //Nome_da_clesse.metodo();
+
         double raio = sc.nextDouble();
         double c = Versao_tres.circunferencia(raio);
         double v = Versao_tres.volume(raio);
