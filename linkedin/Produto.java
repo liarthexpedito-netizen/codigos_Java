@@ -1,3 +1,5 @@
+package linkedin;
+
 public class Produto {
 
     public static final double ICMS_CE = 0.2; 
