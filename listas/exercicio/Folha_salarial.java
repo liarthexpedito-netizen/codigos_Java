@@ -33,4 +33,13 @@ public class Folha_salarial {
         this.salario = salario;
     }
 
+    public void Aumento_salarial(double porcentagem) {
+        salario += salario * porcentagem / 100.00;
+    }
+
+    @Override
+    public String toString() {
+        return id + ", " + nome + ", " + salario;
+    }
+
 }
