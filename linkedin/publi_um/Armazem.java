@@ -1,4 +1,4 @@
-package linkedin;
+package linkedin.publi_um;
 
 import java.util.Locale;
 import java.util.Scanner;
