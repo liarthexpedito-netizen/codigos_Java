@@ -3,7 +3,9 @@ package data_hora;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class Introducao_data_hora {
@@ -11,12 +13,14 @@ public class Introducao_data_hora {
         
         //Data-hora local
         LocalDate d01 = LocalDate.now();
+        LocalTime hora = LocalTime.now();
         LocalDateTime d02 = LocalDateTime.now();
 
-        //Data-hora global
+        //Data-hora global (com fuso horário)
         Instant d03 = Instant.now();
         Instant d04 = Instant.parse("2026-01-01T10:30:00Z");
         Instant d05 = Instant.parse("2026-01-01T10:30:00-03:00");
+        ZonedDateTime zdt = ZonedDateTime.now();
         
         //Forma de escrita no padrão ISO 8601 -> Data-hora
         LocalDate d06 = LocalDate.parse("2004-08-26");
@@ -34,10 +38,12 @@ public class Introducao_data_hora {
         LocalDateTime d11 = LocalDateTime.of(2026, 11, 3, 17, 30);
 
         System.out.println(d01);
+        System.out.println(hora);
         System.out.println(d02);
         System.out.println(d03);
         System.out.println(d04);
         System.out.println(d05);
+        System.out.println(zdt);
         System.out.println(d06);
         System.out.println(d07);
         System.out.println(d08);

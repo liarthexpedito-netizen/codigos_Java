@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.Period;
 import java.time.ZoneId;
 import java.time.temporal.ChronoUnit;
 
@@ -25,6 +26,9 @@ public class Operacoes_com_data_hora {
         LocalDate mais_anos = d01.plusYears(10);
         LocalDateTime menos_dias_hora = d02.minusDays(10);
         LocalDateTime mais_dias_horas = d02.plusDays(10);
+        LocalDate ano = d01.withYear(2030);
+        Period periodo = Period.ofDays(15);
+        Duration duracao = Duration.ofHours(3);
 
         Instant global1 = d03.minus(10, ChronoUnit.DAYS);
         Instant global2 = d03.plus(10, ChronoUnit.DAYS);
@@ -44,6 +48,9 @@ public class Operacoes_com_data_hora {
         System.out.println(mais_anos);
         System.out.println(menos_dias_hora);
         System.out.println(mais_dias_horas);
+        System.out.println(ano);
+        System.out.println(periodo);
+        System.out.println(duracao);
         System.out.println(global1);
         System.out.println(global2);
         System.out.println(t1);
