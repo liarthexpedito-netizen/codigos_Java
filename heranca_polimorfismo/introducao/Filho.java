@@ -1,4 +1,4 @@
-package heranca.introducao;
+package heranca_polimorfismo.introducao;
 
 public class Filho extends Pai {
 

@@ -1,4 +1,4 @@
-package heranca;
+package heranca_polimorfismo;
 
 public class Conta_cnpj extends Conta_cpf {
 

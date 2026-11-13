@@ -1,4 +1,4 @@
-package heranca;
+package heranca_polimorfismo;
 
 import java.util.Locale;
 import java.util.Scanner;

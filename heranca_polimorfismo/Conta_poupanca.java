@@ -1,6 +1,6 @@
-package heranca;
+package heranca_polimorfismo;
 
-//'final' evita que sejam criadas cubclasses de Conta_poupanca
+//'final' evita que sejam criadas subclasses de Conta_poupanca
 public final class Conta_poupanca extends Conta_cpf {
 
     private Double taxa_de_juros;
