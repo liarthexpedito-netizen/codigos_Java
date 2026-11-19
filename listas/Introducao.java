@@ -9,7 +9,6 @@ public class Introducao {
         
         //Inicializando uma lista
         List <String> lista = new ArrayList<>();
-
         //Adicionando elemento a lista
         lista.add("Expedito");
         lista.add("Bruno");

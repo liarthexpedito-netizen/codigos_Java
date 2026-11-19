@@ -22,7 +22,6 @@ public class Funcionario {
         this.xp = xp;
         this.salario_base = salario_base;
         this.departamento = departamento;
-
     }
 
     public String getNome() {
