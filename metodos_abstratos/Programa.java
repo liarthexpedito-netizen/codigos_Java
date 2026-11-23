@@ -40,6 +40,8 @@ public class Programa {
 
         }
 
+        System.out.println();
+
         System.out.println("Área das formas: ");
         for (Forma f : lista) {
             System.out.println(String.format("%.2f", f.Area()));
