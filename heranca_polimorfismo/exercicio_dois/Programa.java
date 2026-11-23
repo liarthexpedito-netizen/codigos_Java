@@ -34,7 +34,7 @@ public class Programa {
                 lista.add(new Produto(nome, preco));
             } else if (resposta == 'u' || resposta == 'U') {
                 System.out.print("Data de fabricação: (DD/MM/YYYY): ");
-                LocalDate data = LocalDate.parse(sc.next(), DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+                LocalDate data = LocalDate.parse(sc.next(), DateTimeFormatter.ofPattern("dd/MM/yyyy")); //MEMORIZAR FORMA
                 lista.add(new Produto_usado(nome, preco, data));
             } else {
                 System.out.print("Taxa alfândegaria: ");
