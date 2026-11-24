@@ -10,9 +10,6 @@ public class Operador_ternario {
         String resultado = (idade >= 18) ? "Você e maior de idade" : "Você não é maior de idade";
         System.out.println(resultado);
 
-
-
-
         sc.close();
     }
 }
